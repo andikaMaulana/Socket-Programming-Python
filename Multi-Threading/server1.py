@@ -25,7 +25,7 @@ def threaded(c):
 
 def Main():
 	host = ""
-	port = 5559
+	port = 5556
 	s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 	s.bind((host,port))
 	s.listen(5)
